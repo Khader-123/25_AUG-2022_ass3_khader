@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joy It Skill Website</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .nav {
+        background-color: gray;
+        position: relative;
+        text-align: center;
+        border: 2px solid #3498db;
+        position: static;
+        box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
+      }
+      .logo-name {
+        position: relative;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 40px;
+        bottom: 30px;
+      }
+      .logo-one {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        right: 200px;
+        border-radius: 50px;
+      }
+      .logo-tow {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 200px;
+        border-radius: 50px;
+      }
+      .main-cnt {
+        background-image: linear-gradient(
+          95.2deg,
+          rgba(173, 252, 234, 1) 26.8%,
+          rgba(192, 229, 246, 1) 64%
+        );
+
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
+      }
+      video {
+        width: 250px;
+        height: 300px;
+        margin: 50px;
+        position: absolute;
+        position: sticky;
+      }
+      p {
+        width: 200px;
+        height: 250px;
+        position: relative;
+        top: 40px;
+        margin: 50px;
+        color: whitesmoke;
+        scroll-behavior: auto;
+        overflow: scroll;
+      }
+      .cnt-img {
+        width: 250px;
+        height: 280px;
+        position: relative;
+        top: 40px;
+        margin: 50px;
+      }
+      .cnt-img:hover {
+        transform: scale(1.1);
+        transition: 1ms;
+      }
+      .footer-main {
+        border: 1px solid #3498db;
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        color: white;
+        text-align: center;
+        box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
+      }
+      span {
+        color: whitesmoke;
+      }
+      .text-change {
+        color: black;
+      }
+      .f-text {
+        height: 30px;
+        color: white;
+        background-color: darkcyan;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+      }
+      p {
+        color: #000;
+        background-color: ;
+      }
+
+      /* Modal Content */
+      .modal-content {
+        /* background-color: #fefefe; */
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .img-2 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+      }
+      .o-1 {
+        font-size: 50px;
+        color: yellow;
+        font-weight: bold;
+      }
+      .o-y {
+        color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nav">
+      <img class="logo-one" src="./jot,jpeg.jpeg" alt="" />
+      <span class="logo-name">
+        <span class="o-y">J</span><span class="o-1">O</span
+        ><span class="o-y">Y</span> <span>It</span> Skills
+        <span class="text-change">Safari </span> Website</span
+      >
+      <img class="logo-tow" src="skill.safari.png" alt="" />
+    </div>
+    <div class="main-cnt">
+      <video width="400" controls>
+        <source src="./assets/video1.mp4" />
+        <source src="mov_bbb.ogg" />
+      </video>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        possimus, enim at pariatur rerum soluta debitis minima incidunt! Non
+        maiores molestias asperiores quae quod voluptate adipisci sequi. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus,
+        enim at pariatur rerum soluta debitis minima incidunt! Non maiores
+        molestias asperiores quae quod voluptate adipisci sequi. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Dignissimos possimus, enim
+        at pariatur rerum soluta debitis minima incidunt! Non maiores molestias
+        asperiores quae quod voluptate adipisci sequi. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Dignissimos possimus, enim at
+        pariatur rerum soluta debitis minima incidunt! Non maiores molestias
+        asperiores quae quod voluptate adipisci sequi. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Dignissimos possimus, enim at
+        pariatur rerum soluta debitis minima incidunt! Non maiores molestias
+        asperiores quae quod voluptate adipisci sequi.
+      </p>
+      <img class="cnt-img" src="./assets/imag1.jpeg" alt="" id="myBtn" />
+    </div>
+    <div class="footer-main">
+      <span>Copyright@2022-Skill Safari</span>
+    </div>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="cnt-img img-2" src="./assets/imag1.jpeg" alt="" />
+      </div>
+    </div>
+    <script>
+      var modal = document.getElementById("myModal");
+
+      var btn = document.getElementById("myBtn");
+
+      var span = document.getElementsByClassName("close")[0];
+
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
